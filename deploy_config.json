@@ -1,0 +1,80 @@
+{
+    "chip_type": "k230",
+    "inference_width": 320,
+    "inference_height": 320,
+    "confidence_threshold": 0.4,
+    "nms_threshold": 0.5,
+    "nncase_version": "2.9.0",
+    "model_type": "AnchorBaseDet",
+    "img_size": [
+        320,
+        320
+    ],
+    "anchors": [
+        [
+            36,
+            34,
+            33,
+            110,
+            60,
+            67
+        ],
+        [
+            105,
+            47,
+            76,
+            115,
+            187,
+            73
+        ],
+        [
+            104,
+            194,
+            153,
+            152,
+            232,
+            230
+        ]
+    ],
+    "mean": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "std": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "categories": [
+        "Inductor",
+        "kapasitor-elco",
+        "Resistor nilai tetap",
+        "kapasitor-keramik",
+        "Transistor",
+        "inductor 1.0μH",
+        "inductor 150nH",
+        "inductor 1.5μH",
+        "inductor 3.3μH",
+        "inductor 4.7μH",
+        "inductor 6.8μH",
+        "inductor 470nH",
+        "inductor 220nH",
+        "inductor 330nH",
+        "kapasitor-elco 1μF",
+        "kapasitor-elco 33μF",
+        "kapasitor-elco 220μF",
+        "kapasitor-elco 470μF",
+        "kapasitor-elco 4700nF",
+        "kapasitor-elco 4700μF",
+        "Resistor nilai tetap 20Ω",
+        "Resistor nilai tetap 36KΩ",
+        "intact Resistor",
+        "damaged Resistor",
+        "intact  kapasitor-elco",
+        "damaged kapasitor-elco"
+    ],
+    "nms_option": false,
+    "kmodel_path": "best_AnchorBaseDet_can2_5_s_20250706162954.kmodel",
+    "num_classes": 26
+}
